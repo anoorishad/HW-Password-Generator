@@ -17,14 +17,14 @@ function generate(){
     console.log("button pressed");
 
     // Prompt for password length
-    var pwLength = prompt("Please enter length of password desired (Must be between 8 - 128 characters)");
+    var pwLength = prompt("Please enter length of password desired (Must be between 8-128 characters)");
     console.log("The user picked " + pwLength + " characters.")
     
     if(pwLength >= 8 && pwLength <= 128) {
         
         var incLower = window.confirm("Include lowercase characters?");
-        var incUpper = window.confirm("Include uppercase characters");
-        var incNumbers = window.confirm("Include numbers?");
+        var incUpper = window.confirm("Include uppercase characters?");
+        var incNumbers = window.confirm("Include numeric characters?");
         var incSpecChars = window.confirm("Include special characters?");
         
         if (incLower == true) {
