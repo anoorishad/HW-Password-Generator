@@ -15,3 +15,7 @@ The following image shows the web application's appearance and functionality:
 ![The password generator application displays a button to "Generate Password".](assets/img/password-generator-screenshot.png)
 
 
+
+## URL
+
+https://anoorishad.github.io/HW-Password-Generator/
