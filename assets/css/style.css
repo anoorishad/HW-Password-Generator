@@ -5,20 +5,29 @@
     
 }
 
+body {
+    background-image: url("https://www.worksighted.com/wp-content/uploads/2020/06/passphrase-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 header {
-    background-color: blue;
+
     text-align: center;
 }
 
 .box{
-    background-color: gold;
-    width: 20%;
+
+    width: 15%;
     margin: auto;
 }
 
 #btn  {
     width: 100%;
     margin: auto;
+    min-height: 5vh;
+    min-width: 5vh;
     
 
 }
