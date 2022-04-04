@@ -27,22 +27,22 @@ function generate(){
         var incNumbers = window.confirm("Include numeric characters?");
         var incSpecChars = window.confirm("Include special characters?");
         
-        if (incLower == true) {
+        if (incLower) {
             bank = bank.concat(lower);
         }
         
-        if (incUpper == true) {
+        if (incUpper) {
             bank = bank.concat(upper);
         }
-        if (incNumbers == true) {
+        if (incNumbers) {
             bank = bank.concat(numbers);
         }
         
-        if (incSpecChars == true) {
+        if (incSpecChars) {
             bank = bank.concat(specChars);
         }
 
-        if (!incLower && !incUpper && !incNumbers && !incSpecChars == true){
+        if (!incLower && !incUpper && !incNumbers && !incSpecChars){
             alert("YOU MUST INCLUDE AT LEAST ONE CHARACTER TYPE");
             generate();
             return;
